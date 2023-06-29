@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 # import libraries
 import boto3, re, sys, math, json, os, sagemaker, urllib.request
@@ -127,8 +122,6 @@ test_data['predictions'] = predictions
 
 test_data.to_excel('test_data.xlsx', index=False)
 
-
-# In[ ]:
 
 
 
